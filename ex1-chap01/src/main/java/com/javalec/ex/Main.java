@@ -1,5 +1,6 @@
 package com.javalec.ex;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +11,7 @@ public class Main {
 		buildRunner.setMavenPath("c:\\apache-maven-3.1.1");
 		
 		Project sampleProject = new Project();
-		List<String> srcDirs = new ArrayList<String>();
+		List<String> srcDirs = new ArrayList<>();
 		srcDirs.add("src");
 		srcDirs.add("srcResources");
 		sampleProject.setSrcDirs(srcDirs);
